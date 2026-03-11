@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'ntnguyen055/doctor-appointment'
+        IMAGE_NAME = 'doanasd/doctor-appointment'
         APP_SERVER_IP = '192.168.100.144'
         APP_SERVER_USER = 'doanvm'
         DOCKERHUB_CREDS = credentials('dockerhub-creds')
