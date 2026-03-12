@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'doanasd/doctor-appointment'
         APP_SERVER_IP = '192.168.100.144'
-        APP_SERVER_USER = 'doanvm'
+        APP_SERVER_USER = 'doanvw'
         DOCKERHUB_CREDS = credentials('dockerhub-creds')
     }
 
